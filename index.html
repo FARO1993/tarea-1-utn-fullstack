@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>El Sistema Solar</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header id="cabecera">
+    <h1>Explorando el Sistema Solar</h1>
+    <nav>
+      <ul class="menu-nav">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#jupiter">Júpiter</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="inicio">
+
+    <article id="jupiter">
+      <h2>Júpiter: El Gigante del Sistema Solar</h2>
+
+      <p>
+        Júpiter es el <strong>planeta más grande</strong> de nuestro sistema solar.
+        Su característica más famosa es la <em>Gran Mancha Roja</em>,
+        una tormenta que lleva activa <mark>más de 350 años</mark>.
+      </p>
+
+      <img
+        src="assets/jupiter.png"
+        alt="Fotografía de Júpiter tomada por la sonda Voyager, mostrando sus bandas de nubes y la Gran Mancha Roja"
+        class="imagen-planeta"
+      >
+
+      <ol class="lista-datos">
+        <li>Júpiter tiene al menos 95 lunas confirmadas, siendo Ganímedes la más grande del sistema solar.</li>
+        <li>Su masa es más del doble que la de todos los demás planetas juntos.</li>
+        <li>Un día en Júpiter dura apenas 10 horas, siendo el planeta con la rotación más rápida.</li>
+      </ol>
+    </article>
+
+    <section class="seccion-formulario" id="contacto">
+      <h2>¿Querés saber más sobre el espacio?</h2>
+      <p>Completá el formulario y te enviamos información.</p>
+
+      <div class="formulario-contenedor">
+        <div class="campo-grupo">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo">
+        </div>
+
+        <div class="campo-grupo">
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" name="email" placeholder="tu@email.com">
+        </div>
+
+        <div class="campo-grupo">
+          <label for="planeta">Planeta favorito</label>
+          <select id="planeta" name="planeta">
+            <option value="">-- Seleccioná uno --</option>
+            <option value="jupiter">Júpiter</option>
+            <option value="saturno">Saturno</option>
+            <option value="marte">Marte</option>
+          </select>
+        </div>
+
+        <button type="button" class="btn-enviar">Enviar</button>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <small>Facundo Rodriguez &mdash; Curso Antes de React &mdash; Módulo 1, Unidad 1 &mdash; 2026</small>
+  </footer>
+
+</body>
+</html>width: 100%;
