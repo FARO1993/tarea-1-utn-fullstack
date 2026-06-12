@@ -1,6 +1,6 @@
 # tarea-1-utn-fullstack
 
-# 🌌 El Sistema Solar — Mi primera página web semántica
+# 🌌 El Sistema Solar — Júpiter
 
 **Curso:** Antes de React — Centro de e-Learning UTN BA  
 **Módulo:** 1 — Unidad 1  
@@ -16,7 +16,7 @@
 
 ## 📋 Descripción
 
-Página web estática sobre Júpiter y el sistema solar, desarrollada como primera entrega del módulo "Antes de React". Aplica estructura semántica HTML5, estilos con CSS externo, variables CSS, selectores de clase e ID, y un formulario funcional.
+Página web estática sobre Júpiter, desarrollada como primera entrega del módulo "Antes de React". Aplica estructura semántica HTML5, estilos con CSS externo, variables CSS, selectores de clase e ID, y un formulario funcional.
 
 ---
 
