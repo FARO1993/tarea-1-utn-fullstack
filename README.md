@@ -42,18 +42,6 @@ No requiere servidor ni dependencias. Se abre directamente en el navegador.
 
 ---
 
-## 📁 Estructura del proyecto
-
-```
-/
-├── index.html       → Estructura semántica de la página
-├── styles.css       → Estilos externos con variables CSS
-├── jupiter.png      → Imagen del planeta Júpiter
-└── README.md        → Este archivo
-```
-
----
-
 ## 📚 Bibliografía y créditos
 
 **Imagen:** Fotografía de Júpiter tomada por la sonda Voyager 1 (NASA/JPL). Dominio público.
@@ -64,3 +52,5 @@ No requiere servidor ni dependencias. Se abre directamente en el navegador.
 - MDN Web Docs. *HTML: HyperText Markup Language*. Mozilla Corporation. https://developer.mozilla.org/en-US/docs/Web/HTML
 - MDN Web Docs. *CSS: Cascading Style Sheets*. Mozilla Corporation. https://developer.mozilla.org/en-US/docs/Web/CSS
 - WHATWG. *HTML Living Standard* (2025). https://html.spec.whatwg.org/
+- Stack Overflow. Comunidad de preguntas y respuestas sobre desarrollo web. https://stackoverflow.com
+- Anthropic. Claude (modelo de inteligencia artificial). Utilizado como asistente para la generación y revisión del código HTML y CSS de este proyecto. https://www.anthropic.com
